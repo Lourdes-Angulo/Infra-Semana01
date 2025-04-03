@@ -1,0 +1,16 @@
+{
+  "name": "infra-semana01",
+  "version": "1.0.0",
+  "description": "Testito",
+  "main": "index.js",
+  "scripts": {
+    "develop": "node app.js",
+    "start": "export STAGE=prod && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lourdes Angulo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

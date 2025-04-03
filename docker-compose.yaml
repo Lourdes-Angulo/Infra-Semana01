@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    image: iac/lab
+    container_name: lab
+    ports:
+      - 8080:3000
+    environment:
+      - STAGE=staging
